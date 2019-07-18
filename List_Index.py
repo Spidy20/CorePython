@@ -1,9 +1,8 @@
-a=[1,2,3,[4,5,6,10],[10]]
-###0,1,2,  3(0,1,2,3),4
+a = input('Enter you name: ')
+b = input('Enter you surname: ')
 
-print(a[3][3])
-
-T=(0,1,2,3,4,[5,6],[7,5,6,8],[8],(9),10)
-T[6][3]=7
-print(T)
-
+if a == 'Kushal':
+    if b == 'Bhavsar':
+        print('Hello' +' '+ a +' '+ b)
+    else:
+        print('your surname is incorrect')

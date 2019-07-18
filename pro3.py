@@ -8,19 +8,27 @@ class student:
      def getDetails(self):
          print(self.name,self.cource,self.sem)
 
-     def marks(marks,python,java):
-         marks.python=python
-         marks.java=java
-         print(int(marks.java)+int(marks.python))
+     def marks2(marks3,python,java):
+         marks3.python=python
+         marks3.java=java
+         print(int(marks3.java)+int(marks3.python))
 
 
+s,s1,s2=student()
 
-s=student()
-s.setDetails("Ashini","Bio","VII")
+name1=input('Enter name:')
+sub1=input('Enter Subject:')
+c1=input('Enter class:')
+s.setDetails(name1,sub1,c1)
 s.getDetails()
-s.marks(90,80)
+s.marks2(90,80)
 
-s1=student()
+
 s1.setDetails("Kushal","Diploma","VII")
 s1.getDetails()
-s1.marks(90,90)
+s1.marks2(90,90)
+
+
+s2.setDetails('Atharva','MTECH','VII')
+s2.getDetails()
+s2.marks2(80,80)

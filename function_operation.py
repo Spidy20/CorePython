@@ -1,27 +1,11 @@
-a=int(input("enter the value of a:"))
-b=int(input("enter the value of b:"))
-c=int(input("enter the value of c:"))
+eng = int(input('Enter the English marks: '))
+hin = int(input('Enter the Hindi Marks: '))
+maths = int(input('Enter the Maths marks'))
+comp = int(input('ENter the Computer marks:'))
+ss = int(input('Enter the SS marks'))
 
+total = eng+hin+maths+comp+ss
+perc = total/500*100
 
-def add(a,b,c):
-    d=a+b+c
-    return d
-d=add(a,b,c)
-
-def multi(d,e):
-    f=d*e
-    return f
-f=multi(d,4)
-
-def division(f,g):
-    h=f/g
-    print(h)
-h=division(f,2)
-
-
-
-
-
-
-
-
+print('Your total Marks is :',total)
+print('Your Percentage is :',perc)

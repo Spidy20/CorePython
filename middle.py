@@ -4,12 +4,11 @@ c=int(input("enter the value of c:"))
 
 if a<b:
     if b<c:
-        print("b is middle number %d" %b)
+        print("%d is middle number " %b)
     if b>c:
         print("c is middle number %d" %c)
-if a>b:
-
+else:
     if a<c:
         print("a is middle number %d" %a)
-    if b>c:
-        print("b is middle number %d" %b)
+    if a>c:
+        print("c is middle number %d" %c)

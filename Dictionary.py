@@ -8,7 +8,7 @@ a.pop("age")
 #####Fromkeys
 b={"name":"Kushal","age":18,"age":"IT Diploma"}
 c=('a','b','c')
-b=dict.fromkeys(c,5)
+c = dict.fromkeys(c,5)
 print(b)
 
 #####Copy

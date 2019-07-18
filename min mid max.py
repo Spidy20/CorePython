@@ -32,6 +32,3 @@ if a>b<c:
         print("C IS MAX")
         print("A IS MID")
         print("B IS MIN")
-
-
-

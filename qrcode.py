@@ -1,10 +1,11 @@
 import pyqrcode
-import png
 
-text='kushal'
 try:
-    url=pyqrcode.create(text)
-    url.png('C:/Users/kusha/Pictures/AnyDesk/kushal.png',scale=5)
+    text = 'Kushal Bhavsar'
+    ur= pyqrcode.create(text)
+    ur.png('KB.png')
+    import os
+    os.system('KB.png')
     print('Your PNG created')
 except Exception as e:
     print(e)

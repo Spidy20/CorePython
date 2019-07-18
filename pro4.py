@@ -13,7 +13,7 @@ class student:
         print(self.name, self.cource, self.sem)
 
 try:
-    s = student()
+    s = student('Srushti')
     s.setDetails("Bio", "VII")
     s.getDetails()
 except:

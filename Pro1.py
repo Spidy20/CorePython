@@ -1,14 +1,14 @@
 class student:
     pass
 
-student.name="Ashini"
-student.surname="Rami"
-student.enroll=21
-student.course="Biomedical"
+s = student()
+s.surname="Rami"
+s.enroll=21
+s.course="Biomedical"
 
-print(student.name)
+s1 = student()
+s1.surname = 'BHavsar'
+s1.enrollment = '007'
+s1.course = "IT"
 
-
-
-
-
+print(s1)

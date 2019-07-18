@@ -1,4 +1,4 @@
-for a in range(1,10):
-    print("appending value in a list",a)
-l=list(a)
-print(l)
+for i in range(15):
+    for j in range(i):
+        print('*',end = 'k')
+    print()

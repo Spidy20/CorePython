@@ -1,3 +1,4 @@
-for x in range (1,10,3):
-    x = x +1
-    print (x)
+usd = int(input('Enter the  USD$: '))
+
+inr = usd*70
+print('Your INR value is:', inr)

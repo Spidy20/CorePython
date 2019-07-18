@@ -1,8 +1,14 @@
-List=[1,2,3,(4,5,6)]
-Tuple=(1,2,3,[1,2,3])
+##Tuple
 
-####Change value in Tuple(List)
-Tuple[3][2]=5
-print(Tuple)
-print(List)
-
+b = (7,8,9,10)
+print(b.index(7))
+# ###without List comprehension
+# k  = []
+# for i in 'Kushal Bhavsar':
+#     k.append(i)
+# print(k)
+#
+# ##With list comprehension
+#
+# p = [h for h in 'Kushal Bhavsar']
+# print(p)

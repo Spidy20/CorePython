@@ -2,31 +2,31 @@ a=int(input("enter the value of a:"))
 b=int(input("enter the value of b:"))
 c=int(input("enter the value of c:"))
 
-###max
+##max
 
 if a>b:
     if a>c:
         print("a is a maximum number %d" %a)
     if a<c:
         print("c is a maximum number %d" %c)
-if a<b:
+else :
     if b>c:
         print("b is a maximum number %d" %b)
     if b<c:
         print("c is a maximum number %d" %c)
 
 
-####Min
+###Min
 if a<b:
     if a<c:
-        print("a is minimum number %d" %a)
+        print("a is minimum number " ,a)
     if a>c:
-        print("c is minimum number %d" %c)
-if a>b:
+        print("c is minimum number ",c)
+else:
     if b<c:
-        print("b is minimum number %d" %b)
+        print("b is minimum number ",b)
     if b>c:
-        print("c is minimum number %d" %c)
+        print("c is minimum number ",c)
 
 #####Middle number
 
@@ -39,10 +39,10 @@ if a>b:
 
     if a<c:
         print("a is middle number %d" %a)
-    if b>c:
-        print("b is middle number %d" %b)
+    if a>c:
+        print("c is middle number %d" %b)
 
-#####equal
+####equal
 
 if a==b<c:
      print("a and b value is equal and minimum and c value is maximum")
